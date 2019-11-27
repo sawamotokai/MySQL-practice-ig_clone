@@ -1,0 +1,33 @@
+USER {
+  id:
+  username: VARCHAR
+}
+
+PHOTOS {
+  id:
+  url: REQUIRED
+  numLikes: INT
+  date: DATETIME
+  user_id: FOREIGN KEY
+}
+
+COMMENTS {
+  id: 
+  content: 
+  photo_id:
+  user_id:
+}
+
+HASHTAGS {
+  id:
+  photo_id:
+
+}
+
+LIKES {
+  
+}
+
+FOLLOWERS/FOLLOWEES {
+  ?
+}
